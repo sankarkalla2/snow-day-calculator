@@ -5,7 +5,6 @@ import Link from "next/link";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
-
 export function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -30,9 +29,6 @@ export function Navbar() {
             </Link>
           </nav>
           <div className="flex items-center space-x-4">
-            <Button asChild className="hidden sm:flex px-4">
-              <Link href="/dashboard">Get Started</Link>
-            </Button>
             <Button
               variant="ghost"
               size="icon"
