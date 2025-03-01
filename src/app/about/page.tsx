@@ -1,11 +1,9 @@
 import { Metadata } from "next";
 import React from "react";
 
-
 export const metadata: Metadata = {
   title: "About",
-
-}
+};
 export default function AboutPage() {
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
@@ -18,8 +16,8 @@ export default function AboutPage() {
           </h2>
           <p className="text-gray-700">
             SnowDayCalculator is a free tool that helps people predict the
-            likelihood of snow days. It&apos;s my first side project, created to make
-            weather prediction more accessible and fun for everyone.
+            likelihood of snow days. It&apos;s my first side project, created to
+            make weather prediction more accessible and fun for everyone.
           </p>
         </section>
 
@@ -46,9 +44,9 @@ export default function AboutPage() {
         <section>
           <h2 className="text-2xl font-semibold mb-3">Get In Touch</h2>
           <p className="text-gray-700">
-            Have questions or suggestions? I&apos;d love to hear from you! This is my
-            first side project, and I&apos;m always looking for ways to improve it.
-            You can reach me at:
+            Have questions or suggestions? I&apos;d love to hear from you! This
+            is my first side project, and I&apos;m always looking for ways to
+            improve it. You can reach me at:
           </p>
           <div className="mt-3">
             <p className="text-gray-700">Name: Gowrisankar Kalla</p>

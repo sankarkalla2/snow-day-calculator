@@ -22,9 +22,18 @@ export const metadata: Metadata = {
     "calculator",
     "student tool",
   ],
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: "https://snow-day-calculator-teal.vercel.app",
+    title: "SnowDayCalculator",
+    description: "Know whether you should go to school or not",
+    siteName: "SnowDayCalculator",
+  },
   authors: [{ name: "GowriSankar Kalla" }],
   twitter: {
     card: "summary_large_image",
+    creator: "@sankarKalla3",
   },
 };
 
